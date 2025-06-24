@@ -1,0 +1,96 @@
+.faixa{
+  margin-top: 50px;
+  background-color: aqua;
+  height: 10px;
+  width: 100%;
+}
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  margin-top: 50px;
+  background: #e9e5e5;
+   border-radius: 12px;
+   box-shadow: 0 8px 16px #070707;
+   padding: 20px 30px;
+   width: 90%;
+   text-align: center;
+   max-width: 600px;
+}
+h1{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #4b4949;
+}
+.add-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+input{
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #4d4dee;
+  border-radius: 6px;
+  font-size: 16px;
+}
+input:focus{
+  outline: none;
+  border-color: rgb(3, 3, 80);
+}
+button[type="submit"]{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgb(56, 56, 206);
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button[type="submit"]:hover{
+  background: #02026e;
+}
+button[type="button"]{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #d51f1f;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: backgroud 0.3s;
+}
+table{
+  width: 100%;
+  color: #0a29dd;
+}
+th{
+  background: rgb(56, 56, 206);
+}
+thead{
+  background: rgb(56, 56, 206);
+  color: #fff;
+}
+th, td{
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #413e3e;
+}
+tr:nth-child(odd){
+  background-color: #96f7d2;
+}
+tr:nth-child(even){
+  background-color: #f7f596;
+}
+input[type="checkbox"]{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.item-riscado {
+    text-decoration: line-through;
+}
